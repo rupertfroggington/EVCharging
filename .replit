@@ -14,8 +14,7 @@ language = "nodejs"
 [deployment]
 deploymentTarget = "cloudrun"
 ignorePorts = false
-build = ["sh", "-c", "cd EVCharging && npx expo start --web"]
-run = ["sh", "-c", "npx serve -s"]
+run = ["sh", "-c", "cd EVCharging && npx expo start --web"]
 
 [[ports]]
 localPort = 8081
